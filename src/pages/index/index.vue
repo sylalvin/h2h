@@ -108,7 +108,6 @@
           <div class="row mt-3">
             <div class="col-12 p-0">
               <div class="card img-fluid brs0 border-0">
-                <!-- <img class="card-img-top brs0" v-lazy="this.$GLOBAL.staticUrl + '/product-detail.jpg'"> -->
                 <img class="card-img-top brs0" v-lazy="this.$GLOBAL.staticUrl + '/vedio-bg.jpg'">
                 <div class="card-img-overlay p-0">
                   <div class="row h-100 m-0">
