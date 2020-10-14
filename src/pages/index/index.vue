@@ -108,6 +108,7 @@
           <div class="row mt-3">
             <div class="col-12 p-0">
               <div class="card img-fluid brs0 border-0">
+                <!-- <img class="card-img-top brs0" v-lazy="this.$GLOBAL.staticUrl + '/product-detail.jpg'"> -->
                 <img class="card-img-top brs0" v-lazy="this.$GLOBAL.staticUrl + '/vedio-bg.jpg'">
                 <div class="card-img-overlay p-0">
                   <div class="row h-100 m-0">
@@ -119,7 +120,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-4 p-0 border-fff" :class="{bgc1: moudleName == 'member' ? false : true, bgc3: moudleName == 'member' ? true : false}" @click="openVedio('http://files.h2h777.cn/index/vedio/how-to-use.mp4')" @mouseenter="moveIn('member')" @mouseleave="moveOut('member')">
+                    <div class="col-4 p-0 border-fff" :class="{bgc1: moudleName == 'member' ? false : true, bgc3: moudleName == 'member' ? true : false}" @click="openVedio('http://files.h2h777.cn/index/vedio/vedio2.mp4')" @mouseenter="moveIn('member')" @mouseleave="moveOut('member')">
                       <div class="text-center vedio-content" :class="{animate__moveUp: moudleName == 'member' ? true : false}">
                         <div class="vedio-content-desc">
                           <img class="vedio-content-desc-icon" v-lazy="this.$GLOBAL.staticUrl + '/right.png'" alt="">
@@ -127,7 +128,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-4 p-0 border-fff" :class="{bgc1: moudleName == 'auth' ? false : true, bgc3: moudleName == 'auth' ? true : false}" @click="openVedio('http://files.h2h777.cn/index/vedio/how-to-use.mp4')" @mouseenter="moveIn('auth')" @mouseleave="moveOut('auth')">
+                    <div class="col-4 p-0 border-fff" :class="{bgc1: moudleName == 'auth' ? false : true, bgc3: moudleName == 'auth' ? true : false}" @click="openVedio('http://files.h2h777.cn/index/vedio/vedio1.mp4')" @mouseenter="moveIn('auth')" @mouseleave="moveOut('auth')">
                       <div class="text-center vedio-content" :class="{animate__moveUp: moudleName == 'auth' ? true : false}">
                         <div class="vedio-content-desc">
                           <img class="vedio-content-desc-icon" v-lazy="this.$GLOBAL.staticUrl + '/right.png'" alt="">
